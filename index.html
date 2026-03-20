@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="section_one">
+        <h1>It's time to play Rock Paper Scissors!</h1>
+    </div>
+
+    <div class="section_two">
+        <div>First to five is the winner!</div>
+    </div>
+
+    <div class="section_three">
+        <div class="section_three_subsections">
+            <div class="button_group">
+
+                <div class="rock_button">
+                    <button onclick="('Rock!')">Rock!</button>
+                </div>
+
+                <div class="paper_button">
+                    <button onclick="('Paper!')">Paper!</button>
+                </div>
+
+                <div class="scissors_button">
+                    <button onclick="('Scissors!')">Scissors!</button>
+                </div>
+
+            </div>
+
+            <div id="winner_banner" style="display:none">
+                <p id="winner_message"></p>
+            </div>
+
+            <div class="scorecard_duo">
+
+                <div class="player_score">
+                    <div id="player_score">Player Score: 0</div>
+                </div>
+
+                <div class="computer_score">
+                    <div id="computer_score">Computer Score: 0</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="subsection_four">
+        <div class="choice_reflection">
+
+                <div class="player_move">
+                    <div id="player_move"></div>
+                </div>
+
+                <div class="computer_move">
+                    <div id="computer_move"></div>
+                </div>
+            </div>
+    </div>
+
+</body>
+</html>

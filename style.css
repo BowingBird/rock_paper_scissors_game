@@ -1,0 +1,141 @@
+body {
+    background-color: #27352A;
+    font-family: Tahoma, sans-serif;}
+
+.section_one {
+    color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D4C4A8;
+    font-size: xx-large;
+    text-wrap:none;
+    text-align:center;
+    height:30%;
+    width:100%;
+    border-radius:5px;}
+
+.section_two {
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    margin-top:1vh;
+    color: #FAFAFA;}
+
+button {
+    border-radius:5px;
+    justify-content: center;
+    align-items: center;
+    border: solid #4A0000;
+    border-width: 0.5%;
+    width:auto;
+    min-width: 12vw;
+    height:max-content;
+    margin:1vw;
+    color:#FAFAFA;
+    font-size: xx-large;
+    text-wrap: none;
+    background-color:#100C08;
+    cursor: pointer;
+    opacity: 1;}
+
+.button_group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;}
+
+.rock_button:hover {
+    opacity: 0.5;}
+
+.paper_button:hover {
+    opacity: 0.8;}
+
+.scissors_button:hover {
+    opacity: 0.5;}
+
+.scorecard_duo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:1vw;}
+
+.player_score {
+    border-width: 1vw;
+    border-radius:5px;
+    background-color:#D4C4A8;
+    border: solid #4A0000;
+    text-align: center;
+    text-wrap: y;
+    padding:0.5%;
+    width:auto;
+    min-width: 15vw;
+    height:max-content;}
+
+.computer_score {
+    border-width: 1vw;
+    border-radius:5px;
+    background-color:#D4C4A8;
+    border: solid #4A0000;
+    text-align: center;
+    text-wrap:y;
+    padding: 0.5%;
+    width:auto;
+    min-width: 15vw;
+    height:max-content;}
+
+.choice_reflection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:1vw;}
+
+.player_move {
+    border-width: 1vw;
+    border-radius:5px;
+    background-color:#D4C4A8;
+    border: solid #4A0000;
+    text-align: center;
+    align-content: center;
+    text-wrap: y;
+    padding:0.5%;
+    width:auto;
+    min-width: 15vw;
+    height:auto;
+    min-height: 15vw;
+    font-size: 60pt;}
+
+.computer_move {
+    border-width: 1vw;
+    border-radius:5px;
+    background-color:#D4C4A8;
+    border: solid #4A0000;
+    text-align: center;
+    align-content: center;
+    text-wrap:y;
+    padding: 0.5%;
+    width:auto;
+    min-width: 15vw;
+    height:auto;
+    min-height: 15vw;
+    font-size: 60pt;}
+
+#winner_banner {
+    background-color: #D4C4A8;
+    border: 2px solid #27352A;
+    padding: 20px;
+    display:flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    border-radius:5px;}
+
+#winner_message {
+    font-size: 35pt;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #4A0000;
+    border: 5px;}
